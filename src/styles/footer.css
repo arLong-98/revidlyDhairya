@@ -1,0 +1,19 @@
+.footer{
+    display: flex ; 
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+    width: 360px;
+    height: 54px;
+    left: 0px;
+    top: 586px;
+
+}
+
+.footer-button{
+    background: #ffffff;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    outline: none;
+}

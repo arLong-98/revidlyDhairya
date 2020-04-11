@@ -1,0 +1,20 @@
+.upvote{
+    border: 1.5px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+.comments{
+    border: none;
+}
+
+.share{
+    border: none;
+}
+
+.views{
+    border: none;
+}
+.downvote{
+    border: 1.5px solid #e6e6e6;
+    border-radius: 10px;
+}

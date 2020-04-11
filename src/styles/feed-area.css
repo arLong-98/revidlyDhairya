@@ -1,0 +1,83 @@
+.feed-area{
+    position: absolute;
+    width: 100vw;
+    height: 456px;
+    left: 0px;
+    top: 130px;
+    overflow: scroll;
+}
+.post-container{
+    width: 344px;
+    height: auto;
+    margin-left: 8px;
+
+}
+
+.post-header{
+    display:  grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    grid-template-rows: 1fr ;
+    justify-content: center;
+    width: 344px;
+    height: 52px;
+    margin: 0 5px 0 0 ;
+}
+
+.post-header>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.post-user-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    grid-row: 1/3;
+}
+
+.post-clan-tag{
+    display: block;
+    width: auto;
+    height: 13px;
+    font-size: 13px;
+    
+}
+
+.post-user{
+    display: block;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+}
+
+.post-time{
+    width: auto;
+    height: 16px;
+    font-size: 10px;
+    margin-top: 25px;
+}
+
+.post-body{
+    width: 328px;
+    height: auto;
+    padding: 5px;
+}
+
+.post-footer{
+    width: 328px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.post-footer > button{
+    background: none;
+    outline: none;
+    font-size: 10px;
+}
